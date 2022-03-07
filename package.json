@@ -22,7 +22,10 @@
   },
   "jest": {
     "verbose": true,
-    "coveragePathIgnorePatterns": ["/node_modules/", "<rootDir>/__tests__/integration/*"],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "<rootDir>/__tests__/integration/*"
+    ],
     "testTimeout": 10000
   }
 }
